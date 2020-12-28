@@ -1,0 +1,328 @@
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-hoang.vu" (connect: 0.00s, validation: 0.01s, handshake: 0.22s)
+Entitlement-based licensing initiated
+[LicensingClient] Licenses updated successfully
+
+LICENSE SYSTEM [20201222 18:48:56] Next license update check is after 2020-09-22T04:06:30
+
+
+LICENSE SYSTEM [20201222 18:48:56] Current license is already valid and activated. Skipping license activation process (Provided username/password will be ignored).
+[Licensing::Module] Serial number assigned to: "PS-ADE7-Q293-JU2E-JHJR-XXXX"
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54440
+Successfully changed project path to: /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder
+/Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 88.05 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.1.17f1 (9957aee8edc2)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Assets
+GfxDevice: creating device client; threaded=0
+2020-12-22 18:48:56.238 Unity[16889:1710015] Color LCD preferred device: AMD Radeon Pro 560 (high power)
+2020-12-22 18:48:56.238 Unity[16889:1710015] Metal devices available: 2
+2020-12-22 18:48:56.238 Unity[16889:1710015] 0: AMD Radeon Pro 560 (high power)
+2020-12-22 18:48:56.239 Unity[16889:1710015] 1: Intel(R) HD Graphics 630 (low power)
+2020-12-22 18:48:56.240 Unity[16889:1710015] Using device AMD Radeon Pro 560 (high power)
+Initializing Metal device caps: AMD Radeon Pro 560
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56889
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.1.17f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.003617 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 66.10 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.834 seconds
+Registering precompiled user dll's ...
+Registered in 0.158536 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 80.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 299ms
+Mono: successfully reloaded assembly
+- Completed reload, in  2.665 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4140 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 434.7 MB.
+System memory in use after: 434.9 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 4515.
+Total: 3.871856 ms (FindLiveObjects: 0.445320 ms CreateObjectMapping: 0.221209 ms MarkObjects: 3.127833 ms  DeleteObjects: 0.076963 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/TinyPlaceholder.unity
+  artifactKey: Guid(f17be26d84eed4a7886804c2b15424d4) Importer(2089858483,8f48ca04252c70920f641c4e591f7c62)
+Start importing Assets/Scenes/TinyPlaceholder.unity using Guid(f17be26d84eed4a7886804c2b15424d4) Importer(2089858483,8f48ca04252c70920f641c4e591f7c62) Opening scene 'Assets/Scenes/TinyPlaceholder.unity additively'
+Loaded scene 'Assets/Scenes/TinyPlaceholder.unity'
+	Deserialize:            1.108 ms
+	Integration:            3.822 ms
+	Integration of assets:  0.005 ms
+	Thread Wait Time:       21.720 ms
+	Total Operation Time:   26.655 ms
+ -> (target hash: '2bdf3f9a9b8a21276fa3b6f3963649d4') in 0.069254 seconds
+  Import took 0.081523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016816 seconds.
+  path: Assets/SceneDependencyCache/e2925f77d21d01705415ad75df534bbe.sceneWithBuildSettings
+  artifactKey: Guid(e2925f77d21d01705415ad75df534bbe) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/e2925f77d21d01705415ad75df534bbe.sceneWithBuildSettings using Guid(e2925f77d21d01705415ad75df534bbe) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) Opening scene 'Assets/Scenes/TinyPlaceholder.unity additively'
+Loaded scene 'Assets/Scenes/TinyPlaceholder.unity'
+	Deserialize:            0.642 ms
+	Integration:            0.553 ms
+	Integration of assets:  0.005 ms
+	Thread Wait Time:       20.242 ms
+	Total Operation Time:   21.441 ms
+The referenced script is missing on Main Camera 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+The referenced script is missing on Main Camera 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+SpriteAtlasPacking completed in 0.247540 sec
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.unity.entities/Unity.Core.Editor/Compression/lz4-1.9.1/liblz4.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.unity.entities/Unity.Core.Editor/Compression/lz4-1.9.1/liblz4.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.unity.entities/Unity.Core.Editor/Compression/lz4-1.9.1/liblz4.dylib.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.unity.entities/Unity.Core.Editor/Compression/lz4-1.9.1/liblz4.dylib.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.unity.entities/Unity.Core.Editor/Compression/lz4-1.9.1/liblz4.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.unity.entities/Unity.Core.Editor/Compression/lz4-1.9.1/liblz4.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.unity.entities/Unity.Core.Editor/Compression/lz4-1.9.1/liblz4.dylib.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.unity.entities/Unity.Core.Editor/Compression/lz4-1.9.1/liblz4.dylib.bundle
+ -> (target hash: '3e7227398e486f2b6d6e3d60ec6531a9') in 1.948996 seconds
+  Import took 1.998205 seconds .
+
+/Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityComponentStore.cs(371,17): Burst warning BC1370: An exception was thrown from a function without the correct [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")] guard. Exceptions only work in the editor and so should be only thrown in a function protected by this guard
+
+ at Unity.Entities.EntityComponentStore.ThrowIfEntitiesPerWorldIsTooHigh(Unity.Entities.EntityComponentStore* this, long newValue) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityComponentStore.cs:371)
+ at Unity.Entities.EntityComponentStore.EnsureCapacity(Unity.Entities.EntityComponentStore* this, int value) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityComponentStore.cs:382)
+ at Unity.Entities.EntityComponentStore.IncreaseCapacity(Unity.Entities.EntityComponentStore* this) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityComponentStore.cs:349)
+ at Unity.Entities.EntityComponentStore.AllocateEntitiesForRemapping(Unity.Entities.EntityComponentStore* this, Unity.Entities.Chunk* chunk, ref Unity.Collections.NativeArray`1<Unity.Entities.EntityRemapUtility.EntityRemapInfo> entityRemapping) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityComponentStore.cs:861)
+ at Unity.Entities.EntityManager.MoveChunksJob.Execute(Unity.Entities.EntityManager.MoveChunksJob* this) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityManagerMoveEntities.cs:623)
+ at Unity.Entities.IJobBurstSchedulableExtensions.JobStruct`1<Unity.Entities.EntityManager.MoveChunksJob>.Execute(ref Unity.Entities.EntityManager.MoveChunksJob data, System.IntPtr additionalPtr, System.IntPtr bufferRangePatchData, ref Unity.Jobs.LowLevel.Unsafe.JobRanges ranges, int jobIndex) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/IJobBurstSchedulable.cs:40)
+
+
+While compiling job: System.Void Unity.Entities.IJobBurstSchedulableExtensions/JobStruct`1<Unity.Entities.EntityManager/MoveChunksJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)
+at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityComponentStore.cs:line 371 
+(Filename:  Line: 371)
+
+/Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityCommandBuffer.cs(1736,29): Burst warning BC1370: An exception was thrown from a function without the correct [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")] guard. Exceptions only work in the editor and so should be only thrown in a function protected by this guard
+
+ at Unity.Entities.EntityCommandBuffer._PlaybackChainChunk(Unity.Entities.EntityDataAccess* mgr, Unity.Collections.LowLevel.Unsafe.UnsafeList* managedReferenceIndexRemovalCount, ref Unity.Entities.EntityComponentStore.ArchetypeChanges archetypeChanges, ref Unity.Entities.ECBSharedPlaybackState playbackState, Unity.Entities.ECBChainPlaybackState* chainStates, int currentChain, int nextChain, bool isFirstPlayback, Unity.Entities.PlaybackPolicy playbackPolicy) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityCommandBuffer.cs:1736)
+ at Unity.Entities.EntityCommandBuffer._mono_to_burst_PlaybackChainChunk(System.IntPtr mgr, System.IntPtr managedReferenceIndexRemovalCount, ref Unity.Entities.EntityComponentStore.ArchetypeChanges archetypeChanges, ref Unity.Entities.ECBSharedPlaybackState playbackState, System.IntPtr chainStates, int currentChain, int nextChain, bool isFirstPlayback, Unity.Entities.PlaybackPolicy playbackPolicy) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityCommandBuffer.interop.gen.cs:82)
+
+
+While compiling job: System.Void Unity.Entities.EntityCommandBuffer::_mono_to_burst_PlaybackChainChunk(System.IntPtr,System.IntPtr,Unity.Entities.EntityComponentStore/ArchetypeChanges&,Unity.Entities.ECBSharedPlaybackState&,System.IntPtr,System.Int32,System.Int32,System.Boolean,Unity.Entities.PlaybackPolicy)
+at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityCommandBuffer.cs:line 1736 
+(Filename:  Line: 1736)
+
+/Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityDataAccess.cs(732,17): Burst warning BC1370: An exception was thrown from a function without the correct [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")] guard. Exceptions only work in the editor and so should be only thrown in a function protected by this guard
+
+ at Unity.Entities.EntityDataAccess.RemoveMultipleComponentsDuringStructuralChange(Unity.Entities.EntityDataAccess* this, Unity.Entities.UnsafeMatchingArchetypePtrList archetypeList, Unity.Entities.EntityQueryFilter* filter, Unity.Entities.ComponentTypes* componentTypes) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityDataAccess.cs:732)
+ at Unity.Entities.EntityCommandBuffer.PlaybackUnmanagedCommandInternal(Unity.Entities.EntityDataAccess* mgr, Unity.Entities.BasicCommand* header, ref Unity.Entities.ECBSharedPlaybackState playbackState, Unity.Entities.PlaybackPolicy playbackPolicy, Unity.Collections.LowLevel.Unsafe.UnsafeList* managedReferenceIndexRemovalCount, ref Unity.Entities.EntityComponentStore.ArchetypeChanges archetypeChanges) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityCommandBuffer.cs:1946)
+ at Unity.Entities.EntityCommandBuffer._PlaybackChainChunk(Unity.Entities.EntityDataAccess* mgr, Unity.Collections.LowLevel.Unsafe.UnsafeList* managedReferenceIndexRemovalCount, ref Unity.Entities.EntityComponentStore.ArchetypeChanges archetypeChanges, ref Unity.Entities.ECBSharedPlaybackState playbackState, Unity.Entities.ECBChainPlaybackState* chainStates, int currentChain, int nextChain, bool isFirstPlayback, Unity.Entities.PlaybackPolicy playbackPolicy) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityCommandBuffer.cs:1725)
+ at Unity.Entities.EntityCommandBuffer._mono_to_burst_PlaybackChainChunk(System.IntPtr mgr, System.IntPtr managedReferenceIndexRemovalCount, ref Unity.Entities.EntityComponentStore.ArchetypeChanges archetypeChanges, ref Unity.Entities.ECBSharedPlaybackState playbackState, System.IntPtr chainStates, int currentChain, int nextChain, bool isFirstPlayback, Unity.Entities.PlaybackPolicy playbackPolicy) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityCommandBuffer.interop.gen.cs:82)
+
+
+While compiling job: System.Void Unity.Entities.EntityCommandBuffer::_mono_to_burst_PlaybackChainChunk(System.IntPtr,System.IntPtr,Unity.Entities.EntityComponentStore/ArchetypeChanges&,Unity.Entities.ECBSharedPlaybackState&,System.IntPtr,System.Int32,System.Int32,System.Boolean,Unity.Entities.PlaybackPolicy)
+at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityDataAccess.cs:line 732 
+(Filename:  Line: 732)
+
+/Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/ECBInterop.interop.gen.cs(76,21): Burst warning BC1370: An exception was thrown from a function without the correct [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")] guard. Exceptions only work in the editor and so should be only thrown in a function protected by this guard
+
+ at Unity.Entities.ECBInterop.RemoveManagedReferences(Unity.Entities.EntityDataAccess* mgr, int* sharedIndex, int count) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/ECBInterop.interop.gen.cs:76)
+ at Unity.Entities.EntityCommandBuffer.ProcessTrackedChanges(Unity.Entities.EntityDataAccess* mgr, Unity.Collections.LowLevel.Unsafe.UnsafeList* managedReferenceIndexRemovalCount, ref Unity.Entities.EntityComponentStore.ArchetypeChanges archetypeChanges) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityCommandBuffer.cs:2136)
+ at Unity.Entities.EntityCommandBuffer.PlaybackUnmanagedCommandInternal(Unity.Entities.EntityDataAccess* mgr, Unity.Entities.BasicCommand* header, ref Unity.Entities.ECBSharedPlaybackState playbackState, Unity.Entities.PlaybackPolicy playbackPolicy, Unity.Collections.LowLevel.Unsafe.UnsafeList* managedReferenceIndexRemovalCount, ref Unity.Entities.EntityComponentStore.ArchetypeChanges archetypeChanges) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityCommandBuffer.cs:2033)
+ at Unity.Entities.EntityCommandBuffer._PlaybackChainChunk(Unity.Entities.EntityDataAccess* mgr, Unity.Collections.LowLevel.Unsafe.UnsafeList* managedReferenceIndexRemovalCount, ref Unity.Entities.EntityComponentStore.ArchetypeChanges archetypeChanges, ref Unity.Entities.ECBSharedPlaybackState playbackState, Unity.Entities.ECBChainPlaybackState* chainStates, int currentChain, int nextChain, bool isFirstPlayback, Unity.Entities.PlaybackPolicy playbackPolicy) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityCommandBuffer.cs:1725)
+ at Unity.Entities.EntityCommandBuffer._mono_to_burst_PlaybackChainChunk(System.IntPtr mgr, System.IntPtr managedReferenceIndexRemovalCount, ref Unity.Entities.EntityComponentStore.ArchetypeChanges archetypeChanges, ref Unity.Entities.ECBSharedPlaybackState playbackState, System.IntPtr chainStates, int currentChain, int nextChain, bool isFirstPlayback, Unity.Entities.PlaybackPolicy playbackPolicy) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityCommandBuffer.interop.gen.cs:82)
+
+
+While compiling job: System.Void Unity.Entities.EntityCommandBuffer::_mono_to_burst_PlaybackChainChunk(System.IntPtr,System.IntPtr,Unity.Entities.EntityComponentStore/ArchetypeChanges&,Unity.Entities.ECBSharedPlaybackState&,System.IntPtr,System.Int32,System.Int32,System.Boolean,Unity.Entities.PlaybackPolicy)
+at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/ECBInterop.interop.gen.cs:line 76 
+(Filename:  Line: 76)
+
+/Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityComponentStore.cs(1633,25): Burst warning BC1370: An exception was thrown from a function without the correct [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")] guard. Exceptions only work in the editor and so should be only thrown in a function protected by this guard
+
+ at Unity.Entities.EntityComponentStore.CreateArchetype(Unity.Entities.EntityComponentStore* this, Unity.Entities.ComponentTypeInArchetype* types, int count) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityComponentStore.cs:1633)
+ at Unity.Entities.EntityComponentStore.GetOrCreateArchetype(Unity.Entities.EntityComponentStore* this, Unity.Entities.ComponentTypeInArchetype* inTypesSorted, int count) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityComponentStoreCreateArchetype.cs:20)
+ at Unity.Entities.EntityComponentStore.GetArchetypeWithRemovedComponent(Unity.Entities.EntityComponentStore* this, Unity.Entities.Archetype* archetype, Unity.Entities.ComponentType addedComponentType, int* indexInOldTypeArray) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityComponentStoreCreateArchetype.cs:507)
+ at Unity.Entities.EntityComponentStore.GetArchetypeChunkFilterWithRemovedComponent(Unity.Entities.EntityComponentStore.ArchetypeChunkFilter* $___struct_ret, Unity.Entities.EntityComponentStore* this, Unity.Entities.Chunk* srcChunk, Unity.Entities.ComponentType componentType) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityComponentStoreCreateArchetype.cs:369)
+ at Unity.Entities.EntityComponentStore.GetChunkWithEmptySlotsWithRemovedComponent(Unity.Entities.EntityComponentStore* this, Unity.Entities.Chunk* srcChunk, Unity.Entities.ComponentType componentType) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityComponentStoreCreateArchetype.cs:194)
+ at Unity.Entities.EntityComponentStore.GetChunkWithEmptySlotsWithRemovedComponent(Unity.Entities.EntityComponentStore* this, Unity.Entities.Entity entity, Unity.Entities.ComponentType componentType) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityComponentStoreCreateArchetype.cs:189)
+ at Unity.Entities.EntityComponentStore.RemoveComponent(Unity.Entities.EntityComponentStore* this, Unity.Entities.Entity entity, Unity.Entities.ComponentType type) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityComponentStoreChangeArchetype.cs:36)
+ at Unity.Entities.EntityComponentStore.DestroyMetaChunkEntity(Unity.Entities.EntityComponentStore* this, Unity.Entities.Entity entity) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityComponentStoreCreateDestroyEntities.cs:217)
+ at Unity.Entities.ChunkDataUtility.ChangeArchetypeInPlace(Unity.Entities.Chunk* srcChunk, Unity.Entities.Archetype* dstArchetype, int* sharedComponentValues) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/ChunkDataUtility.cs:724)
+ at Unity.Entities.EntityComponentStore.Move(Unity.Entities.EntityComponentStore* this, Unity.Entities.Chunk* srcChunk, ref Unity.Entities.EntityComponentStore.ArchetypeChunkFilter archetypeChunkFilter) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityComponentStoreChangeArchetype.cs:336)
+ at Unity.Entities.EntityComponentStore.RemoveComponents(Unity.Entities.EntityComponentStore* this, Unity.Entities.ArchetypeChunk* chunks, int chunkCount, Unity.Entities.ComponentTypes* componentTypes) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityComponentStoreChangeArchetype.cs:173)
+ at Unity.Entities.StructuralChange._RemoveComponentsChunks(Unity.Entities.EntityComponentStore* entityComponentStore, Unity.Entities.ArchetypeChunk* chunks, int chunkCount, ref Unity.Entities.ComponentTypes types) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityManagerChangeArchetype.cs:65)
+ at Unity.Entities.StructuralChange.RemoveComponentsChunks(Unity.Entities.EntityComponentStore* entityComponentStore, Unity.Entities.ArchetypeChunk* chunks, int chunkCount, ref Unity.Entities.ComponentTypes types) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityManagerChangeArchetype.interop.gen.cs:308)
+ at Unity.Entities.EntityDataAccess.RemoveMultipleComponentsDuringStructuralChange(Unity.Entities.EntityDataAccess* this, Unity.Entities.UnsafeMatchingArchetypePtrList archetypeList, Unity.Entities.EntityQueryFilter* filter, Unity.Entities.ComponentTypes* componentTypes) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityDataAccess.cs:735)
+ at Unity.Entities.EntityCommandBuffer.PlaybackUnmanagedCommandInternal(Unity.Entities.EntityDataAccess* mgr, Unity.Entities.BasicCommand* header, ref Unity.Entities.ECBSharedPlaybackState playbackState, Unity.Entities.PlaybackPolicy playbackPolicy, Unity.Collections.LowLevel.Unsafe.UnsafeList* managedReferenceIndexRemovalCount, ref Unity.Entities.EntityComponentStore.ArchetypeChanges archetypeChanges) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityCommandBuffer.cs:1946)
+ at Unity.Entities.EntityCommandBuffer._PlaybackChainChunk(Unity.Entities.EntityDataAccess* mgr, Unity.Collections.LowLevel.Unsafe.UnsafeList* managedReferenceIndexRemovalCount, ref Unity.Entities.EntityComponentStore.ArchetypeChanges archetypeChanges, ref Unity.Entities.ECBSharedPlaybackState playbackState, Unity.Entities.ECBChainPlaybackState* chainStates, int currentChain, int nextChain, bool isFirstPlayback, Unity.Entities.PlaybackPolicy playbackPolicy) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityCommandBuffer.cs:1725)
+ at Unity.Entities.EntityCommandBuffer._mono_to_burst_PlaybackChainChunk(System.IntPtr mgr, System.IntPtr managedReferenceIndexRemovalCount, ref Unity.Entities.EntityComponentStore.ArchetypeChanges archetypeChanges, ref Unity.Entities.ECBSharedPlaybackState playbackState, System.IntPtr chainStates, int currentChain, int nextChain, bool isFirstPlayback, Unity.Entities.PlaybackPolicy playbackPolicy) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityCommandBuffer.interop.gen.cs:82)
+
+
+While compiling job: System.Void Unity.Entities.EntityCommandBuffer::_mono_to_burst_PlaybackChainChunk(System.IntPtr,System.IntPtr,Unity.Entities.EntityComponentStore/ArchetypeChanges&,Unity.Entities.ECBSharedPlaybackState&,System.IntPtr,System.Int32,System.Int32,System.Boolean,Unity.Entities.PlaybackPolicy)
+at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityComponentStore.cs:line 1633 
+(Filename:  Line: 1633)
+
+/Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/BlockAllocator.cs(297,21): Burst warning BC1370: An exception was thrown from a function without the correct [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")] guard. Exceptions only work in the editor and so should be only thrown in a function protected by this guard
+
+ at Unity.Entities.BlockAllocator.BufferAllocator.Allocate(Unity.Entities.BlockAllocator.BufferAllocator* this) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/BlockAllocator.cs:297)
+ at Unity.Entities.BlockAllocator.Allocate(Unity.Entities.BlockAllocator* this, int bytesToAllocate, int alignment) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/BlockAllocator.cs:395)
+ at Unity.Entities.EntityQueryManager.AddArchetypeIfMatching(Unity.Entities.EntityQueryManager* this, Unity.Entities.Archetype* archetype, Unity.Entities.EntityQueryData* query) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/Iterators/EntityQueryManager.cs:572)
+ at Unity.Entities.EntityQueryManager.AddAdditionalArchetypes(Unity.Entities.EntityQueryManager* this, Unity.Entities.UnsafeArchetypePtrList* archetypeList) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/Iterators/EntityQueryManager.cs:562)
+ at Unity.Entities.EntityComponentStore.EndArchetypeChangeTracking(Unity.Entities.EntityComponentStore* this, Unity.Entities.EntityComponentStore.ArchetypeChanges changes, Unity.Entities.EntityQueryManager* queries) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityComponentStore.cs:1817)
+ at Unity.Entities.EntityCommandBuffer.ProcessTrackedChanges(Unity.Entities.EntityDataAccess* mgr, Unity.Collections.LowLevel.Unsafe.UnsafeList* managedReferenceIndexRemovalCount, ref Unity.Entities.EntityComponentStore.ArchetypeChanges archetypeChanges) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityCommandBuffer.cs:2138)
+ at Unity.Entities.EntityCommandBuffer.PlaybackUnmanagedCommandInternal(Unity.Entities.EntityDataAccess* mgr, Unity.Entities.BasicCommand* header, ref Unity.Entities.ECBSharedPlaybackState playbackState, Unity.Entities.PlaybackPolicy playbackPolicy, Unity.Collections.LowLevel.Unsafe.UnsafeList* managedReferenceIndexRemovalCount, ref Unity.Entities.EntityComponentStore.ArchetypeChanges archetypeChanges) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityCommandBuffer.cs:2033)
+ at Unity.Entities.EntityCommandBuffer._PlaybackChainChunk(Unity.Entities.EntityDataAccess* mgr, Unity.Collections.LowLevel.Unsafe.UnsafeList* managedReferenceIndexRemovalCount, ref Unity.Entities.EntityComponentStore.ArchetypeChanges archetypeChanges, ref Unity.Entities.ECBSharedPlaybackState playbackState, Unity.Entities.ECBChainPlaybackState* chainStates, int currentChain, int nextChain, bool isFirstPlayback, Unity.Entities.PlaybackPolicy playbackPolicy) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityCommandBuffer.cs:1725)
+ at Unity.Entities.EntityCommandBuffer._mono_to_burst_PlaybackChainChunk(System.IntPtr mgr, System.IntPtr managedReferenceIndexRemovalCount, ref Unity.Entities.EntityComponentStore.ArchetypeChanges archetypeChanges, ref Unity.Entities.ECBSharedPlaybackState playbackState, System.IntPtr chainStates, int currentChain, int nextChain, bool isFirstPlayback, Unity.Entities.PlaybackPolicy playbackPolicy) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityCommandBuffer.interop.gen.cs:82)
+
+
+While compiling job: System.Void Unity.Entities.EntityCommandBuffer::_mono_to_burst_PlaybackChainChunk(System.IntPtr,System.IntPtr,Unity.Entities.EntityComponentStore/ArchetypeChanges&,Unity.Entities.ECBSharedPlaybackState&,System.IntPtr,System.Int32,System.Int32,System.Boolean,Unity.Entities.PlaybackPolicy)
+at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/BlockAllocator.cs:line 297 
+(Filename:  Line: 297)
+
+/Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/BlockAllocator.cs(310,21): Burst warning BC1370: An exception was thrown from a function without the correct [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")] guard. Exceptions only work in the editor and so should be only thrown in a function protected by this guard
+
+ at Unity.Entities.BlockAllocator.BufferAllocator.Allocate(Unity.Entities.BlockAllocator.BufferAllocator* this) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/BlockAllocator.cs:310)
+ at Unity.Entities.BlockAllocator.Allocate(Unity.Entities.BlockAllocator* this, int bytesToAllocate, int alignment) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/BlockAllocator.cs:395)
+ at Unity.Entities.EntityQueryManager.AddArchetypeIfMatching(Unity.Entities.EntityQueryManager* this, Unity.Entities.Archetype* archetype, Unity.Entities.EntityQueryData* query) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/Iterators/EntityQueryManager.cs:572)
+ at Unity.Entities.EntityQueryManager.AddAdditionalArchetypes(Unity.Entities.EntityQueryManager* this, Unity.Entities.UnsafeArchetypePtrList* archetypeList) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/Iterators/EntityQueryManager.cs:562)
+ at Unity.Entities.EntityComponentStore.EndArchetypeChangeTracking(Unity.Entities.EntityComponentStore* this, Unity.Entities.EntityComponentStore.ArchetypeChanges changes, Unity.Entities.EntityQueryManager* queries) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityComponentStore.cs:1817)
+ at Unity.Entities.EntityCommandBuffer.ProcessTrackedChanges(Unity.Entities.EntityDataAccess* mgr, Unity.Collections.LowLevel.Unsafe.UnsafeList* managedReferenceIndexRemovalCount, ref Unity.Entities.EntityComponentStore.ArchetypeChanges archetypeChanges) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityCommandBuffer.cs:2138)
+ at Unity.Entities.EntityCommandBuffer.PlaybackUnmanagedCommandInternal(Unity.Entities.EntityDataAccess* mgr, Unity.Entities.BasicCommand* header, ref Unity.Entities.ECBSharedPlaybackState playbackState, Unity.Entities.PlaybackPolicy playbackPolicy, Unity.Collections.LowLevel.Unsafe.UnsafeList* managedReferenceIndexRemovalCount, ref Unity.Entities.EntityComponentStore.ArchetypeChanges archetypeChanges) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityCommandBuffer.cs:2033)
+ at Unity.Entities.EntityCommandBuffer._PlaybackChainChunk(Unity.Entities.EntityDataAccess* mgr, Unity.Collections.LowLevel.Unsafe.UnsafeList* managedReferenceIndexRemovalCount, ref Unity.Entities.EntityComponentStore.ArchetypeChanges archetypeChanges, ref Unity.Entities.ECBSharedPlaybackState playbackState, Unity.Entities.ECBChainPlaybackState* chainStates, int currentChain, int nextChain, bool isFirstPlayback, Unity.Entities.PlaybackPolicy playbackPolicy) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityCommandBuffer.cs:1725)
+ at Unity.Entities.EntityCommandBuffer._mono_to_burst_PlaybackChainChunk(System.IntPtr mgr, System.IntPtr managedReferenceIndexRemovalCount, ref Unity.Entities.EntityComponentStore.ArchetypeChanges archetypeChanges, ref Unity.Entities.ECBSharedPlaybackState playbackState, System.IntPtr chainStates, int currentChain, int nextChain, bool isFirstPlayback, Unity.Entities.PlaybackPolicy playbackPolicy) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityCommandBuffer.interop.gen.cs:82)
+
+
+While compiling job: System.Void Unity.Entities.EntityCommandBuffer::_mono_to_burst_PlaybackChainChunk(System.IntPtr,System.IntPtr,Unity.Entities.EntityComponentStore/ArchetypeChanges&,Unity.Entities.ECBSharedPlaybackState&,System.IntPtr,System.Int32,System.Int32,System.Boolean,Unity.Entities.PlaybackPolicy)
+at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/BlockAllocator.cs:line 310 
+(Filename:  Line: 310)
+
+/Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityComponentStore.cs(371,17): Burst warning BC1370: An exception was thrown from a function without the correct [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")] guard. Exceptions only work in the editor and so should be only thrown in a function protected by this guard
+
+ at Unity.Entities.EntityComponentStore.ThrowIfEntitiesPerWorldIsTooHigh(Unity.Entities.EntityComponentStore* this, long newValue) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityComponentStore.cs:371)
+ at Unity.Entities.EntityComponentStore.EnsureCapacity(Unity.Entities.EntityComponentStore* this, int value) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityComponentStore.cs:382)
+ at Unity.Entities.EntityComponentStore.IncreaseCapacity(Unity.Entities.EntityComponentStore* this) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityComponentStore.cs:349)
+ at Unity.Entities.EntityComponentStore.AllocateEntities(Unity.Entities.EntityComponentStore* this, Unity.Entities.Archetype* arch, Unity.Entities.Chunk* chunk, int baseIndex, int count, Unity.Entities.Entity* outputEntities) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityComponentStoreChunk.cs:46)
+ at Unity.Entities.ChunkDataUtility.AllocateClone(Unity.Entities.Chunk* chunk, Unity.Entities.Entity* entities, int count, Unity.Entities.Entity srcEntity) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/ChunkDataUtility.cs:809)
+ at Unity.Entities.EntityComponentStore.InstantiateEntitiesOne(Unity.Entities.EntityComponentStore* this, Unity.Entities.Entity srcEntity, Unity.Entities.Entity* outputEntities, int instanceCount, Unity.Entities.EntityComponentStore.InstantiateRemapChunk* remapChunks, int remapChunksCount, bool removePrefab) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityComponentStoreCreateDestroyEntities.cs:356)
+ at Unity.Entities.EntityComponentStore.InstantiateEntitiesGroup(Unity.Entities.EntityComponentStore* this, Unity.Entities.Entity* srcEntities, int srcEntityCount, Unity.Entities.Entity* outputRootEntities, bool outputRootEntityOnly, int instanceCount, bool removePrefab) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityComponentStoreCreateDestroyEntities.cs:403)
+ at Unity.Entities.EntityComponentStore.InstantiateEntities(Unity.Entities.EntityComponentStore* this, Unity.Entities.Entity srcEntity, Unity.Entities.Entity* outputEntities, int instanceCount) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityComponentStoreCreateDestroyEntities.cs:198)
+ at Unity.Entities.EntityComponentStore.InstantiateWithValidation(Unity.Entities.EntityComponentStore* this, Unity.Entities.Entity srcEntity, Unity.Entities.Entity* outputEntities, int count) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityComponentStoreCreateDestroyEntities.cs:128)
+ at Unity.Entities.EntityCommandBuffer.PlaybackUnmanagedCommandInternal(Unity.Entities.EntityDataAccess* mgr, Unity.Entities.BasicCommand* header, ref Unity.Entities.ECBSharedPlaybackState playbackState, Unity.Entities.PlaybackPolicy playbackPolicy, Unity.Collections.LowLevel.Unsafe.UnsafeList* managedReferenceIndexRemovalCount, ref Unity.Entities.EntityComponentStore.ArchetypeChanges archetypeChanges) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityCommandBuffer.cs:1831)
+ at Unity.Entities.EntityCommandBuffer._PlaybackChainChunk(Unity.Entities.EntityDataAccess* mgr, Unity.Collections.LowLevel.Unsafe.UnsafeList* managedReferenceIndexRemovalCount, ref Unity.Entities.EntityComponentStore.ArchetypeChanges archetypeChanges, ref Unity.Entities.ECBSharedPlaybackState playbackState, Unity.Entities.ECBChainPlaybackState* chainStates, int currentChain, int nextChain, bool isFirstPlayback, Unity.Entities.PlaybackPolicy playbackPolicy) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityCommandBuffer.cs:1725)
+ at Unity.Entities.EntityCommandBuffer._mono_to_burst_PlaybackChainChunk(System.IntPtr mgr, System.IntPtr managedReferenceIndexRemovalCount, ref Unity.Entities.EntityComponentStore.ArchetypeChanges archetypeChanges, ref Unity.Entities.ECBSharedPlaybackState playbackState, System.IntPtr chainStates, int currentChain, int nextChain, bool isFirstPlayback, Unity.Entities.PlaybackPolicy playbackPolicy) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityCommandBuffer.interop.gen.cs:82)
+
+
+While compiling job: System.Void Unity.Entities.EntityCommandBuffer::_mono_to_burst_PlaybackChainChunk(System.IntPtr,System.IntPtr,Unity.Entities.EntityComponentStore/ArchetypeChanges&,Unity.Entities.ECBSharedPlaybackState&,System.IntPtr,System.Int32,System.Int32,System.Boolean,Unity.Entities.PlaybackPolicy)
+at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityComponentStore.cs:line 371 
+(Filename:  Line: 371)
+
+/Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityComponentStore.cs(371,17): Burst warning BC1370: An exception was thrown from a function without the correct [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")] guard. Exceptions only work in the editor and so should be only thrown in a function protected by this guard
+
+ at Unity.Entities.EntityComponentStore.ThrowIfEntitiesPerWorldIsTooHigh(Unity.Entities.EntityComponentStore* this, long newValue) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityComponentStore.cs:371)
+ at Unity.Entities.EntityComponentStore.EnsureCapacity(Unity.Entities.EntityComponentStore* this, int value) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityComponentStore.cs:382)
+ at Unity.Entities.EntityComponentStore.IncreaseCapacity(Unity.Entities.EntityComponentStore* this) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityComponentStore.cs:349)
+ at Unity.Entities.EntityComponentStore.AllocateEntitiesForRemapping(Unity.Entities.EntityComponentStore* this, Unity.Entities.EntityComponentStore* srcEntityComponentStore, ref Unity.Collections.NativeArray`1<Unity.Entities.EntityRemapUtility.EntityRemapInfo> entityRemapping) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityComponentStore.cs:837)
+ at Unity.Entities.EntityManager.MoveAllChunksJob.Execute(Unity.Entities.EntityManager.MoveAllChunksJob* this) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityManagerMoveEntities.cs:916)
+ at Unity.Entities.IJobBurstSchedulableExtensions.JobStruct`1<Unity.Entities.EntityManager.MoveAllChunksJob>.Execute(ref Unity.Entities.EntityManager.MoveAllChunksJob data, System.IntPtr additionalPtr, System.IntPtr bufferRangePatchData, ref Unity.Jobs.LowLevel.Unsafe.JobRanges ranges, int jobIndex) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/IJobBurstSchedulable.cs:40)
+
+
+While compiling job: System.Void Unity.Entities.IJobBurstSchedulableExtensions/JobStruct`1<Unity.Entities.EntityManager/MoveAllChunksJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)
+at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityComponentStore.cs:line 371 
+(Filename:  Line: 371)
+
+/Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityComponentStore.cs(371,17): Burst warning BC1370: An exception was thrown from a function without the correct [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")] guard. Exceptions only work in the editor and so should be only thrown in a function protected by this guard
+
+ at Unity.Entities.EntityComponentStore.ThrowIfEntitiesPerWorldIsTooHigh(Unity.Entities.EntityComponentStore* this, long newValue) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityComponentStore.cs:371)
+ at Unity.Entities.EntityComponentStore.EnsureCapacity(Unity.Entities.EntityComponentStore* this, int value) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityComponentStore.cs:382)
+ at Unity.Entities.EntityComponentStore.IncreaseCapacity(Unity.Entities.EntityComponentStore* this) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityComponentStore.cs:349)
+ at Unity.Entities.EntityComponentStore.AllocateEntities(Unity.Entities.EntityComponentStore* this, Unity.Entities.Archetype* arch, Unity.Entities.Chunk* chunk, int baseIndex, int count, Unity.Entities.Entity* outputEntities) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityComponentStoreChunk.cs:46)
+ at Unity.Entities.ChunkDataUtility.Allocate(Unity.Entities.Chunk* chunk, Unity.Entities.Entity* entities, int count) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/ChunkDataUtility.cs:576)
+ at Unity.Entities.EntityComponentStore.CreateEntities(Unity.Entities.EntityComponentStore* this, Unity.Entities.Archetype* archetype, Unity.Entities.Entity* entities, int count) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityComponentStoreCreateDestroyEntities.cs:28)
+ at Unity.Entities.EntityComponentStore.CreateMetaEntityForChunk(Unity.Entities.EntityComponentStore* this, Unity.Entities.Chunk* chunk) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityComponentStoreCreateDestroyEntities.cs:225)
+ at Unity.Entities.EntityComponentStore.GetCleanChunk(Unity.Entities.EntityComponentStore* this, Unity.Entities.Archetype* archetype, Unity.Entities.SharedComponentValues sharedComponentValues) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityComponentStoreCreateDestroyEntities.cs:185)
+ at Unity.Entities.EntityComponentStore.GetChunkWithEmptySlots(Unity.Entities.EntityComponentStore* this, ref Unity.Entities.EntityComponentStore.ArchetypeChunkFilter archetypeChunkFilter) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityComponentStoreCreateArchetype.cs:208)
+ at Unity.Entities.EntityComponentStore.GetChunkWithEmptySlotsWithRemovedComponent(Unity.Entities.EntityComponentStore* this, Unity.Entities.Chunk* srcChunk, Unity.Entities.ComponentType componentType) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityComponentStoreCreateArchetype.cs:198)
+ at Unity.Entities.EntityComponentStore.GetChunkWithEmptySlotsWithRemovedComponent(Unity.Entities.EntityComponentStore* this, Unity.Entities.Entity entity, Unity.Entities.ComponentType componentType) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityComponentStoreCreateArchetype.cs:189)
+ at Unity.Entities.EntityComponentStore.RemoveComponent(Unity.Entities.EntityComponentStore* this, Unity.Entities.Entity entity, Unity.Entities.ComponentType type) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityComponentStoreChangeArchetype.cs:36)
+ at Unity.Entities.EntityComponentStore.DestroyMetaChunkEntity(Unity.Entities.EntityComponentStore* this, Unity.Entities.Entity entity) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityComponentStoreCreateDestroyEntities.cs:217)
+ at Unity.Entities.ChunkDataUtility.ChangeArchetypeInPlace(Unity.Entities.Chunk* srcChunk, Unity.Entities.Archetype* dstArchetype, int* sharedComponentValues) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/ChunkDataUtility.cs:724)
+ at Unity.Entities.EntityComponentStore.Move(Unity.Entities.EntityComponentStore* this, Unity.Entities.Chunk* srcChunk, ref Unity.Entities.EntityComponentStore.ArchetypeChunkFilter archetypeChunkFilter) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityComponentStoreChangeArchetype.cs:336)
+ at Unity.Entities.EntityComponentStore.DestroyBatch(Unity.Entities.EntityComponentStore* this, ref Unity.Entities.EntityBatchInChunk batch) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityComponentStoreCreateDestroyEntities.cs:300)
+ at Unity.Entities.EntityComponentStore.DestroyEntities(Unity.Entities.EntityComponentStore* this, Unity.Entities.Entity* entities, int count) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityComponentStoreCreateDestroyEntities.cs:72)
+
+
+While compiling job: System.Void Unity.Entities.IJobBurstSchedulableExtensions/JobStruct`1<Unity.Entities.EntityDataAccess/DestroyChunks>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)
+at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityComponentStore.cs:line 371 
+(Filename:  Line: 371)
+
+/Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityComponentStore.cs(1633,25): Burst warning BC1370: An exception was thrown from a function without the correct [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")] guard. Exceptions only work in the editor and so should be only thrown in a function protected by this guard
+
+ at Unity.Entities.EntityComponentStore.CreateArchetype(Unity.Entities.EntityComponentStore* this, Unity.Entities.ComponentTypeInArchetype* types, int count) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityComponentStore.cs:1633)
+ at Unity.Entities.EntityComponentStore.GetOrCreateArchetype(Unity.Entities.EntityComponentStore* this, Unity.Entities.ComponentTypeInArchetype* inTypesSorted, int count) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityComponentStoreCreateArchetype.cs:20)
+ at Unity.Entities.EntityComponentStore.CreateInstanceArchetype(Unity.Entities.EntityComponentStore* this, Unity.Entities.ComponentTypeInArchetype* inTypesSorted, int count, Unity.Entities.ComponentTypeInArchetype* types, Unity.Entities.Archetype* srcArchetype, bool removePrefab) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityComponentStoreCreateArchetype.cs:133)
+
+
+While compiling job: System.Void Unity.Entities.IJobBurstSchedulableExtensions/JobStruct`1<Unity.Entities.EntityDataAccess/DestroyChunks>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)
+at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityComponentStore.cs:line 1633 
+(Filename:  Line: 1633)
+
+/Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/BlockAllocator.cs(297,21): Burst warning BC1370: An exception was thrown from a function without the correct [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")] guard. Exceptions only work in the editor and so should be only thrown in a function protected by this guard
+
+ at Unity.Entities.BlockAllocator.BufferAllocator.Allocate(Unity.Entities.BlockAllocator.BufferAllocator* this) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/BlockAllocator.cs:297)
+ at Unity.Entities.BlockAllocator.Allocate(Unity.Entities.BlockAllocator* this, int bytesToAllocate, int alignment) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/BlockAllocator.cs:395)
+ at Unity.Entities.EntityComponentStore.ChunkAllocate(Unity.Entities.EntityComponentStore* this, void* pointer, int count) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityComponentStore.cs:1491)
+ at Unity.Entities.EntityComponentStore.CreateArchetype(Unity.Entities.EntityComponentStore* this, Unity.Entities.ComponentTypeInArchetype* types, int count) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityComponentStore.cs:1563)
+ at Unity.Entities.EntityComponentStore.GetOrCreateArchetype(Unity.Entities.EntityComponentStore* this, Unity.Entities.ComponentTypeInArchetype* inTypesSorted, int count) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityComponentStoreCreateArchetype.cs:20)
+ at Unity.Entities.EntityComponentStore.CreateInstanceArchetype(Unity.Entities.EntityComponentStore* this, Unity.Entities.ComponentTypeInArchetype* inTypesSorted, int count, Unity.Entities.ComponentTypeInArchetype* types, Unity.Entities.Archetype* srcArchetype, bool removePrefab) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityComponentStoreCreateArchetype.cs:133)
+
+
+While compiling job: System.Void Unity.Entities.IJobBurstSchedulableExtensions/JobStruct`1<Unity.Entities.EntityDataAccess/DestroyChunks>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)
+at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/BlockAllocator.cs:line 297 
+(Filename:  Line: 297)
+
+/Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/BlockAllocator.cs(310,21): Burst warning BC1370: An exception was thrown from a function without the correct [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")] guard. Exceptions only work in the editor and so should be only thrown in a function protected by this guard
+
+ at Unity.Entities.BlockAllocator.BufferAllocator.Allocate(Unity.Entities.BlockAllocator.BufferAllocator* this) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/BlockAllocator.cs:310)
+ at Unity.Entities.BlockAllocator.Allocate(Unity.Entities.BlockAllocator* this, int bytesToAllocate, int alignment) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/BlockAllocator.cs:395)
+ at Unity.Entities.EntityComponentStore.ChunkAllocate(Unity.Entities.EntityComponentStore* this, void* pointer, int count) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityComponentStore.cs:1491)
+ at Unity.Entities.EntityComponentStore.CreateArchetype(Unity.Entities.EntityComponentStore* this, Unity.Entities.ComponentTypeInArchetype* types, int count) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityComponentStore.cs:1563)
+ at Unity.Entities.EntityComponentStore.GetOrCreateArchetype(Unity.Entities.EntityComponentStore* this, Unity.Entities.ComponentTypeInArchetype* inTypesSorted, int count) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityComponentStoreCreateArchetype.cs:20)
+ at Unity.Entities.EntityComponentStore.CreateInstanceArchetype(Unity.Entities.EntityComponentStore* this, Unity.Entities.ComponentTypeInArchetype* inTypesSorted, int count, Unity.Entities.ComponentTypeInArchetype* types, Unity.Entities.Archetype* srcArchetype, bool removePrefab) (at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/EntityComponentStoreCreateArchetype.cs:133)
+
+
+While compiling job: System.Void Unity.Entities.IJobBurstSchedulableExtensions/JobStruct`1<Unity.Entities.EntityDataAccess/DestroyChunks>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)
+at /Users/hoang.vu/Downloads/Workspace/Unity/TinyPlaceholder/Library/PackageCache/com.unity.entities@0.16.0-preview.21/Unity.Entities/BlockAllocator.cs:line 310 
+(Filename:  Line: 310)
+
